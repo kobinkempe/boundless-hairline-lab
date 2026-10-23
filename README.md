@@ -1,5 +1,9 @@
 # bound.less SVG Hairline Lab
 
+## Public demo
+
+[Open the live demo](https://kobin-ai-portfolio.kobinkempe.chatgpt.site/boundless-hairline-lab/) · [Read the case study](https://kobin-ai-portfolio.kobinkempe.chatgpt.site/case-studies/boundless-hairline-lab/)
+
 A focused browser experiment for a difficult rendering question: why can paths with the same apparent thickness disappear when their local SVG coordinate scale changes?
 
 ![Live transformed-SVG grid](docs/screenshots/desktop.jpg)
