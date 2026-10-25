@@ -1,10 +1,14 @@
 # bound.less SVG Hairline Lab
 
+**A small browser lab for a surprising drawing-app problem: a line can disappear even when its intended on-screen size stays the same.**
+
+While developing [bound.less](https://github.com/kobinkempe/bound.less-kk), an infinite-zoom drawing app, I needed to understand why very thin SVG strokes behaved differently at different internal coordinate scales. I isolated the symptom in a small page so comparable lines could be inspected without the rest of the application.
+
+AI-assisted debugging helped turn the symptom into controlled experiments. The lab compares live SVG painting with a canvas control, making it easier to see when a numerical or pixel-count test misses what the browser actually displays. Open the live grid, compare its rows and then inspect the control.
+
 ## Public demo
 
 [Open the live demo](https://kobin-ai-portfolio.kobinkempe.chatgpt.site/boundless-hairline-lab/) · [Read the case study](https://kobin-ai-portfolio.kobinkempe.chatgpt.site/case-studies/boundless-hairline-lab/)
-
-A focused browser experiment for a difficult rendering question: why can paths with the same apparent thickness disappear when their local SVG coordinate scale changes?
 
 ![Live transformed-SVG grid](docs/screenshots/desktop.jpg)
 
