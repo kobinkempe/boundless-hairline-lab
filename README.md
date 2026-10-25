@@ -30,4 +30,8 @@ The original investigation identified a disappearing-path region around that wid
 
 This isolates a real infinite-canvas failure into a small, shareable experiment. It shows numerical reasoning, negative controls and attention to what a test actually measures. It was developed with AI assistance; there is no model at runtime.
 
-The portfolio cleanup adds navigation and explanation while retaining the experiment geometry. Static links and inline JavaScript are checked; Chrome screenshots confirm the live grids render. Performance, paint and device-specific behavior require fresh measurements on each target browser. [Publication review](PUBLICATION_REVIEW.md).
+The portfolio cleanup adds navigation and explanation while retaining the experiment geometry. Static links and inline JavaScript are checked; Chrome screenshots confirm the live grids render. Performance, paint and device-specific behavior require fresh measurements on each target browser.
+
+## Source
+
+Extracted from [bound.less](https://github.com/kobinkempe/bound.less-kk). `PROVENANCE.json` maps the included experiments to their upstream paths and records the standalone snapshot hashes and adaptations.

@@ -1,0 +1,19 @@
+{
+  "repository": "https://github.com/kobinkempe/bound.less-kk",
+  "upstream_paths": {
+    "experiments/chrome.html": "tools/harnesses/hairline/chrome.html",
+    "experiments/chrome2.html": "tools/harnesses/hairline/chrome2.html",
+    "experiments/chrome3.html": "tools/harnesses/hairline/chrome3.html",
+    "experiments/index.html": "tools/harnesses/hairline/index.html"
+  },
+  "snapshot_sha256": {
+    "experiments/chrome.html": "ad8509b8665a902fa9299424c3a7ac2f49b9211a9bceb049cf23b74b4290d204",
+    "experiments/chrome2.html": "75f00dd7f4b0ed55e7689cb4cadb7a264545cdd968205e1f408617bd5c2141f5",
+    "experiments/chrome3.html": "3bf79e042debbd62f625293de74c591a6e9251eeed63bf6bcf5be8826db0304e",
+    "experiments/index.html": "b5f96b24b1c7c92a83a51b73f36a3afe5a87a6957598fbe1ffe56ae1d7ef2ed5"
+  },
+  "adaptations": [
+    "Added a standalone navigation page and README; retained experiment geometry."
+  ],
+  "hash_scope": "Hashes identify the included standalone files after the listed adaptations; they are not a claim of byte identity with an upstream revision."
+}
