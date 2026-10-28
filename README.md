@@ -8,7 +8,7 @@ AI-assisted debugging helped turn the symptom into controlled experiments. The l
 
 ## Public demo
 
-[Open the live lab](https://kobinkempe.pages.dev/boundless-hairline-lab/) · [Read the case study](https://kobinkempe.pages.dev/case-studies/boundless-hairline-lab/)
+[Open the live lab](https://kobinkempe.pages.dev/boundless-hairline-lab/) · [See project details](https://kobinkempe.pages.dev/projects/boundless-hairline-lab/)
 
 ![Live transformed-SVG grid](docs/screenshots/desktop.jpg)
 
@@ -25,6 +25,10 @@ Open http://127.0.0.1:8000 and choose the live SVG grid. No package installation
 `experiments/chrome.html` varies target thickness and local coordinate scale while a group transform compensates to preserve on-screen dimensions. `chrome2.html` supplies another comparison. `chrome3.html` reduces the case to four scales at a target width of 0.165 CSS px. `experiments/index.html` is a canvas measurement control.
 
 The original investigation identified a disappearing-path region around that width in its tested Chrome environment. This is an observation from that setup, not a universal browser threshold. Canvas rasterization can disagree with live SVG paint, so a canvas pixel count alone is an insufficient visual oracle. Capture the actual page and compare at a known browser zoom and device pixel ratio.
+
+## What it showed
+
+This was one of the reasons bound.less now draws with its own rasterizer, which works out exactly how much of each pixel a line covers. A 0.165-pixel line then shows as a faint grey line instead of vanishing.
 
 ## Why it belongs in the portfolio
 
