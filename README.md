@@ -8,7 +8,7 @@ AI-assisted debugging helped turn the symptom into controlled experiments. The l
 
 ## Public demo
 
-[Open the live demo](https://kobin-ai-portfolio.kobinkempe.chatgpt.site/boundless-hairline-lab/) · [Read the case study](https://kobin-ai-portfolio.kobinkempe.chatgpt.site/case-studies/boundless-hairline-lab/)
+[Open the live lab](https://kobinkempe.pages.dev/boundless-hairline-lab/) · [Read the case study](https://kobinkempe.pages.dev/case-studies/boundless-hairline-lab/)
 
 ![Live transformed-SVG grid](docs/screenshots/desktop.jpg)
 
@@ -24,7 +24,7 @@ Open http://127.0.0.1:8000 and choose the live SVG grid. No package installation
 
 `experiments/chrome.html` varies target thickness and local coordinate scale while a group transform compensates to preserve on-screen dimensions. `chrome2.html` supplies another comparison. `chrome3.html` reduces the case to four scales at a target width of 0.165 CSS px. `experiments/index.html` is a canvas measurement control.
 
-The original investigation identified a disappearing-path region around that width in its tested Chrome environment. This is a historical observation, not a universal browser threshold. Canvas rasterization can disagree with live SVG paint, so a canvas pixel count alone is an insufficient visual oracle. Capture the actual page and compare at a known browser zoom and device pixel ratio.
+The original investigation identified a disappearing-path region around that width in its tested Chrome environment. This is an observation from that setup, not a universal browser threshold. Canvas rasterization can disagree with live SVG paint, so a canvas pixel count alone is an insufficient visual oracle. Capture the actual page and compare at a known browser zoom and device pixel ratio.
 
 ## Why it belongs in the portfolio
 
